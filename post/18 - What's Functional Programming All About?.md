@@ -255,7 +255,7 @@ may look something like this:
 ```python
 def make_tiramisu(eggs, sugar1, wine, cheese, cream, fingers, espresso, sugar2, cocoa):
     dissolve(sugar2, espresso)
-    mixture = whisk(eggs)
+    mixture = beat(eggs)
     beat(mixture, sugar1, wine)
     whisk(mixture) # over steam
     whip(cream)
@@ -474,7 +474,7 @@ earlier!
 # Imperative
 def make_tiramisu(eggs, sugar1, wine, cheese, cream, fingers, espresso, sugar2, cocoa):
     dissolve(sugar2, espresso)
-    mixture = whisk(eggs)
+    mixture = beat(eggs)
     beat(mixture, sugar1, wine)
     whisk(mixture) # over steam
     whip(cream)
@@ -838,7 +838,7 @@ program executes the commands in the right order for the program to work.
 ```python
 def make_tiramisu(eggs, sugar1, wine, cheese, cream, fingers, espresso, sugar2, cocoa):
     dissolve(sugar2, espresso)
-    mixture = whisk(eggs)
+    mixture = beat(eggs)
     beat(mixture, sugar1, wine)
     whisk(mixture) # over steam
     whip(cream)
